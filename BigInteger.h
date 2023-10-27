@@ -10,7 +10,8 @@ struct node{
 struct BigInteger{
     struct node *L;
 };
-void display(struct node* );
+void display1(struct node* );
+void display(struct BigInteger );
 struct node * frontzeroterminator(struct node * );
 struct node * reverse(struct node *);
 int compare(struct node *, struct node *);

@@ -1,8 +1,11 @@
-void display(struct node* head){
+void display1(struct node* head){
     while (head){
         printf("%d",head->data);
         head=head->next;
     }
+}
+void display(struct BigInteger h){
+    display1(h->L);
 }
 struct node * reverse(struct node *h){
     struct node *cur=h;
